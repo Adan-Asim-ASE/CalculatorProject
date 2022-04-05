@@ -1,0 +1,126 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.container
+{
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.8), -12px -12px 20px rgba(0, 0, 0, 0.8);
+}
+
+.display-screen
+{
+    width: 97%;
+    height: 65px;
+    margin-bottom: 2%;
+    font-size: 35px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: .5em;
+    background: #ecf0f3;
+    border-radius: 6px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+}
+
+.result-screen
+{
+    width: 97%;
+    height: 40px;
+    font-size: 35px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: .5em;
+    background: #ecf0f3;
+    border-radius: 6px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+}
+
+.var-screen
+{
+    width: 50%;
+    height: 90%;
+    font-size: 35px;
+    outline: none;
+    border: none;
+    text-align: right;
+    background: #ecf0f3;
+    border-radius: 6px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+}
+
+.buttons
+{
+    width: 100%;
+    margin-top: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttons .row button
+{
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 8px #00000020, -5px -5px 8px rgba(0, 0, 0, 0.8);
+}
+
+.buttons .row button:hover {
+    box-shadow: inset 5px 5px 8px rgba(0, 0, 0, .3),
+        inset -5px -5px 8px  #00000020;
+}
+
+.create-variable
+{
+    width: 30%;
+    height: 30px;
+    font-size: 15px;
+    padding: 0.2%;
+    outline: none;
+    border: none;
+    text-align: center;
+    align-items: center;
+    background: #ecf0f3;
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-left: 2%;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+}
+
+.history
+{
+    width: 25%;
+    height: 430px;
+    font-size: 15px;
+    padding: 0.2%;
+    outline: none;
+    border: none;
+    text-align: left;
+    align-items: center;
+    background: #ecf0f3;
+    border-radius: 6px;
+    margin-left: 2%;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+}
+
+p
+{
+    font-size: 20px;
+    padding: 0px;
+    margin:15px;
+}
